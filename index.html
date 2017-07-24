@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xml:lang="fr" lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="manifest" href="/manifest.json">
+	<link href="icon-bender.png" rel="icon" sizes="192x192" />
+	<link media="only screen and (max-device-width: 640px)" rel="stylesheet" href="android.css"/>
+	<link media="only screen and (min-device-width: 650px)" rel="stylesheet" href="android.css"/>
+	<script type='text/javascript' src="oXHR.js"></script>
+	<script type='text/javascript' src="f_js.js"></script>
+	<title>Bender</title>
+</head>
+<body>
+	<div id="chat_area">
+		<div id="make_bulle_div">
+		</div>
+		<div id="results_bulle_div">	
+			<div id="bulle_div">
+				<div id="results" style="display: none;">
+					<span class="final" id="final_span"></span> <span class="interim" id="interim_span"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<span id="loader" style="display: none;"><img src="ajax-loader.gif" alt="loading" /></span>
+	<div id="div_foot">
+		<button id="start_mic" onclick="start_mic()" style="display: inline" ><img alt="mic" id="mic_img" src="Mic.gif"></button><br>
+		<button id="start_key" onclick="start_key()" style="display: inline" ><img alt="keyboard" id="key_img" src="keyboard.png"></button>
+		<input type="text" id="request" style="display: none" />
+		<input type="button" id="btn_request" onclick="txt_request()" value="Send" style="display: none" />
+		<button id="return_mic" onclick="return_mic()" style="display: none" ><img alt="mic" id="mini_mic_img" src="Mic.gif"></button><br>
+        </div>
+</body>
+</html>

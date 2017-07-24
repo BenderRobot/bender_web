@@ -1,0 +1,128 @@
+html {
+	background-image: url("Bender_Wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: cover;
+	font-size: 14px;
+	font-weight: bold;
+}
+body {
+	margin: 5px;
+}
+#usr {
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid white;
+	background-color: lightSkyBlue;
+	display: inline-block;
+	max-width: 70%;
+}
+#bender {
+	display: inline-block;
+	right: 0;
+	padding: 10px;
+	border-radius:10px;
+	border:2px solid white;
+	background-color: LightGray;
+	float: right;
+
+}
+#bulle_div {
+
+	min-height: 40px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	position:relative;
+
+}
+#chat_area {
+	height: 520px;
+	width: 100%;
+	overflow: auto;
+}
+#results {
+	background-color: lightSkyBlue;
+	max-width: 70%;
+	border-radius:10px;
+	border:2px solid white;
+	padding: 10px;
+	position: absolute;
+}
+#start_mic {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+#div_foot {
+	border-top: 2px solid white;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	bottom: 0px;
+	position: fixed;
+	left: 0px;
+	background-color: transparent;
+	height: 80px;
+
+}
+h1 {
+	text-align: center;
+}
+.interim {
+	color: gray;
+}
+.final {
+	color: black;
+}
+#mic_img {
+	width: 70px;
+	height: 70px;
+}
+input[type=text] {
+	width: 66%;
+	height: 64px;
+	position: absolute;
+	left: 50px;
+	margin-top: -12px;
+	border-radius: 10px;
+	border: 2px solid lightgray;
+	outline: none;
+}
+input[type=button] {
+	position: absolute;
+	right: 3px;
+	width: 17%;
+	height: 70px;
+	margin-top: -12px;
+	border-radius: 10px;
+	outline: none;
+	border: 2px solid lightgray;
+}
+#start_key {
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	left: 10px;
+	bottom: 5px;
+}
+#key_img {
+	width: 40px;
+	height: 40px;
+}
+#return_mic {
+	width: 40px;
+	height: 70px;
+	position: absolute;
+	left: 5px;
+	bottom : 5px;
+	border-radius: 10px;
+	background-color: lightgray;
+	border: none;
+	outline: none;
+	text-align: center;
+	padding: 0px;
+}
+#mini_mic_img {
+	width: 40px;
+	height: 40px;
+}
